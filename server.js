@@ -1,4 +1,6 @@
 require('dotenv').config();
+console.log("ENV check: RIOT_API_KEY =", process.env.RIOT_API_KEY ? "Loaded" : "NOT FOUND");
+console.log("RIOT key prefix (Render):", (process.env.RIOT_API_KEY || "").slice(0, 8));
 const express = require('express');
 const axios = require('axios');
 const fs = require('fs');
@@ -6,7 +8,7 @@ const fs = require('fs');
 const app = express();
 
 const PORT = process.env.PORT || 3000;
-const POLL_SECONDS = Number(process.env.POLL_SECONDS || 60);
+const POLL_SECONDS = Number(process.env.POLL_SECONDS || 15);
 const RIOT_API_KEY = process.env.RIOT_API_KEY;
 
 if (!RIOT_API_KEY) {
