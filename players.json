@@ -1,7 +1,8 @@
 [
   { "region": "NA1",  "gameName": "ElielaNoix", "tagLine": "NA1" },
   { "region": "NA1", "gameName": "Nekowell", "tagLine": "Neko" },
-  { "region": "NA1",   "Nameless": "NameHere", "tagLine": "Asset" },
-  { "region": "NA1",   "LuckyDNT": "NameHere", "tagLine": "7275" }
+  { "region": "NA1",   "gameName": "Nameless", "tagLine": "Asset" },
+  { "region": "NA1",   "gameName": "LuckyDNT", "tagLine": "7275" }
 
 ]
+
