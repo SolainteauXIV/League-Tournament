@@ -1,20 +1,12 @@
 {
   "name": "leaguewebsite",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-  "dev": "nodemon server.js",
-  "start": "node server.js"
+    "start": "node server.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
-    "dotenv": "^17.2.3",
-    "express": "^5.1.0"
-  },
-  "devDependencies": {
-    "nodemon": "^3.1.10"
+    "axios": "^1.13.1",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2"
   }
 }
