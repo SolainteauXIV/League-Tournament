@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000
 
 // Root route – quick sanity check
 app.get('/', (_req, res) => {
-  res.send('leagueTracker001 server is running successfully!')
+  res.send('Hello. This website is actively in construction, due to finish by the start of December. Thanks!')
 })
 
 // /board route – fake leaderboard page
